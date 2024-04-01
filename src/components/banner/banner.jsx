@@ -20,10 +20,12 @@ const Banner = () => {
             websites in Front end Development.
           </span>
           <div>
-            <button className="banner-button">
-              <FontAwesomeIcon icon={faEnvelope} />
-              Hi@yourname.com
-            </button>
+            <a href="mailto:bimodwien2@gmail.com">
+              <button className="banner-button">
+                <FontAwesomeIcon icon={faEnvelope} />
+                Hi@yourname.com
+              </button>
+            </a>
           </div>
         </div>
         <div className="avatar-space flex items-center justify-center size-96 ">

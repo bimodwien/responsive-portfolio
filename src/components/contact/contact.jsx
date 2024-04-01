@@ -16,10 +16,12 @@ const Contact = () => {
           for Fulltime and Freelance work.
         </div>
         <div className="">
-          <button className="contact-button">
-            <FontAwesomeIcon icon={faEnvelope} />
-            hi@yourname.com
-          </button>
+          <a href="mailto:bimodwien2@gmail.com">
+            <button className="contact-button">
+              <FontAwesomeIcon icon={faEnvelope} />
+              hi@yourname.com
+            </button>
+          </a>
         </div>
       </div>
     </>
