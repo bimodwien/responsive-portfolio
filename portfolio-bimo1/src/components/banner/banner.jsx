@@ -10,11 +10,11 @@ const Banner = () => {
       <div className="flex px-20 py-36 bg-[rgba(32,32,32,1)] items-center gap-52">
         <div className="flex flex-col  w-1/2 gap-10">
           <span className="title-font">
-            Hi, I am Your Name <br /> A Product Designer based in City
+            Hi, I am Bimo. <br /> A Fullstack Developer.
           </span>
           <span className="subtitle-font">
-            I help businesses and companies reach their goals by designing
-            user-centric digital products & interactive experiences.
+            I help businesses and companies reach their goals by creating a
+            websites both Backend and Frontend.
           </span>
           <div>
             <button className="banner-button">
