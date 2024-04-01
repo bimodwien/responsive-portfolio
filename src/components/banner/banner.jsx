@@ -2,7 +2,7 @@ import React from "react";
 import "./banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import Avatar from "../../assets/Aristoteles.png";
+import Avatar from "../../assets/Bimo-fotor.png";
 
 const Banner = () => {
   return (
@@ -23,7 +23,7 @@ const Banner = () => {
             </button>
           </div>
         </div>
-        <div className="avatar-space flex items-center justify-center ">
+        <div className="avatar-space flex items-center justify-center size-96 ">
           <img src={Avatar} alt="" />
         </div>
       </div>
