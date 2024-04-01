@@ -7,7 +7,10 @@ import Avatar from "../../assets/Bimo-fotor.png";
 const Banner = () => {
   return (
     <>
-      <div className="flex px-20 py-36 bg-[rgba(32,32,32,1)] items-center gap-52">
+      <div
+        id="home"
+        className="flex px-20 py-36 bg-[rgba(32,32,32,1)] items-center gap-52"
+      >
         <div className="flex flex-col  w-1/2 gap-10">
           <span className="title-font">
             Hi, I am Bimo. <br /> A Front End Developer.

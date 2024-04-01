@@ -6,11 +6,12 @@ import handphone from "../../assets/Handphone.png";
 import design from "../../assets/Design.png";
 import laptop from "../../assets/Macbook.png";
 import adobe from "../../assets/Adobe.png";
+import exercise from "../../assets/exercise1.png";
 
 const Feature = () => {
   return (
     <>
-      <div>
+      <div id="work">
         <div className="flex gap-10 px-20 py-5 font-bold bg-[rgba(32,32,32,1)] text-[#dedede] items-center">
           <div>
             <FontAwesomeIcon icon={faArrowDownLong} className="arrow-font" />
@@ -19,12 +20,36 @@ const Feature = () => {
         </div>
         <div className="bg-[rgba(32,32,32,1)] px-20 flex gap-8 py-20">
           <div className="flex flex-col gap-8 mb-40">
-            <img src={handphone} alt="" className="feature-image" />
-            <img src={design} alt="" className="feature-image" />
+            <a href="https://todolist-exercise.vercel.app/">
+              <img
+                src={exercise}
+                alt="Todo List"
+                className="feature-image hover:shadow-xl"
+              />
+            </a>
+            <a href="">
+              <img
+                src={design}
+                alt=""
+                className="feature-image hover:shadow-xl"
+              />
+            </a>
           </div>
           <div className="flex flex-col-reverse gap-8">
-            <img src={laptop} alt="" className="feature-image" />
-            <img src={adobe} alt="" className="feature-image" />
+            <a href="">
+              <img
+                src={laptop}
+                alt=""
+                className="feature-image hover:shadow-xl"
+              />
+            </a>
+            <a href="">
+              <img
+                src={adobe}
+                alt=""
+                className="feature-image hover:shadow-xl"
+              />
+            </a>
           </div>
         </div>
       </div>
