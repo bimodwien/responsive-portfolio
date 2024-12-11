@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDownLong } from "@fortawesome/free-solid-svg-icons";
-
 import Exercise from "../../assets/exercise1.png";
 import Kanban from "../../assets/kanban_bimo.png";
 import Calculator from "../../assets/calculator-bimo.png";
