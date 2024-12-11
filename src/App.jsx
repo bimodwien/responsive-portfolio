@@ -8,13 +8,15 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen bg-[#202020]">
       <Navbar />
-      <Banner />
-      <Feature />
-      <Contact />
-      <Footer />
-    </>
+      <main className="flex-grow">
+        <Banner />
+        <Feature />
+        <Contact />
+        <Footer />
+      </main>
+    </div>
   );
 }
 
